@@ -1,0 +1,170 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Sassafras: a new easy tool for small-angle scattering | Oliver S. Hammond </title> <meta name="author" content="Oliver S. Hammond"> <meta name="description" content="Lightweight browser-based software for fitting your SANS or SAXS data."> <meta name="keywords" content="neutron scattering, SANS, ionic liquids, deep eutectic solvents, soft matter, ESS"> <meta property="og:site_name" content="Oliver S. Hammond"> <meta property="og:type" content="article"> <meta property="og:title" content="Oliver S. Hammond | Sassafras: a new easy tool for small-angle scattering"> <meta property="og:url" content="https://olihammond.github.io/blog/2026/sassafras/"> <meta property="og:description" content="Lightweight browser-based software for fitting your SANS or SAXS data."> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="Sassafras: a new easy tool for small-angle scattering"> <meta name="twitter:description" content="Lightweight browser-based software for fitting your SANS or SAXS data."> <script type="application/ld+json">
+    {
+        "author":
+        {
+            "@type": "Person",
+            "name": "Oliver S. Hammond"
+        },
+        "url": "https://olihammond.github.io/blog/2026/sassafras/",
+        "@type": "BlogPosting",
+        "description": "Lightweight browser-based software for fitting your SANS or SAXS data.",
+        "headline": "Sassafras: a new easy tool for small-angle scattering",
+        
+        "sameAs": ["https://orcid.org/0000-0002-5612-9343","https://scholar.google.com/citations?user=wJZdwpQAAAAJ","https://github.com/olihammond","https://www.linkedin.com/in/olihammond"],
+        
+        "name": "Oliver S. Hammond",
+        "@context": "https://schema.org"
+    }
+  </script> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A7%AA&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://olihammond.github.io/blog/2026/sassafras/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Oliver</span> S. Hammond </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/openings/">openings </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Sassafras: a new easy tool for small-angle scattering</h1> <p class="post-meta"> Created on November 13, 2026 </p> <p class="post-tags"> <a href="/blog/2026"> <i class="fa-solid fa-calendar fa-sm"></i> 2026 </a>   ·   <a href="/blog/tag/sans"> <i class="fa-solid fa-hashtag fa-sm"></i> sans</a>   <a href="/blog/tag/saxs"> <i class="fa-solid fa-hashtag fa-sm"></i> saxs</a>   <a href="/blog/tag/software"> <i class="fa-solid fa-hashtag fa-sm"></i> software</a>   <a href="/blog/tag/sasview"> <i class="fa-solid fa-hashtag fa-sm"></i> sasview</a>   ·   <a href="/blog/category/software"> <i class="fa-solid fa-tag fa-sm"></i> software</a> </p> </header> <article class="post-content"> <div id="markdown-content"> <p><a href="https://github.com/SasView/sassafras" rel="external nofollow noopener" target="_blank">Sassafras</a>(Small Angle Scattering Structure- And Form-factor Rapid ASsessment) is my attempt at a new and very lightweight tool for rapid chi-by-eye and fitting of small-angle data. It is a small Python package that opens a page in your browser, where you drop in reduced 1D data, choose a form factor (and a structure factor if you need one), and drag sliders while the model, residuals and χ² update live. Fundamentally it works in the same way as SasView, but the design philosophy is quite different, and I have found it to be faster, lighter, and more intuitive than the legacy GUI for basic operations.</p> <h2 id="sassafras-has-some-cute-features">sassafras has some cute features:</h2> <ul> <li> <strong>Guess.</strong> The <code class="language-plaintext highlighter-rouge">Guess</code> button interpolates and compares your curve against (<a href="a%20simulated%20library">https://doi.org/10.5281/zenodo.24080759</a>, derived from the original <a href="SAS-55M-20k%20set%20of%20Yildirim,%20Doutch%20and%20Cole">https://doi.org/10.1039/d3dd00225j</a>) by adding ‘strong’ and ‘weak’ HS and RMSA S(Q) to a subset of structures. <code class="language-plaintext highlighter-rouge">Guess</code> proposes a ranked list of models with starting values. I have found this to work surprisingly well, but it should be used with caution, particularly for datasets which are noisy or which contain multiple P(Q) contributions.</li> <li> <strong>Sliders.</strong> It sounds trite, but these are incredibly helpful for exploring form factors and your fits.</li> <li> <strong>Simultaneous constrained fits with multiple P(Q).</strong> This is a workflow that is possible, but a bit annoying, in SasView. In sassafras you can load multiple datasets (including a whole folder) and enable the <code class="language-plaintext highlighter-rouge">Fit</code> and <code class="language-plaintext highlighter-rouge">Multi</code> buttons to model them using simultaneous constraints. Freely set parameters per dataset, and choose whether they are shared, or individually fitted, or fixed. This supports quite complicated modelling too: with <code class="language-plaintext highlighter-rouge">Mix</code> you can enable up to 4 P(Q), the first of which can also be P(Q) * S(Q).</li> <li> <strong>Export to IQuana notebook.</strong> Continue your fitting by directly generating notebooks, rather than in a GUI. We envisage IQuana to be a very useful tool for open scientific publishing, which enables subsequent users to simply follow a jupyter notebook to reproduce your fitting results. Obviously, this also works identically to the much beloved SasView GUI, under the hood.</li> <li> <strong>Themes.</strong> You can pick light/dark mode (obviously), and more importantly a series of gen-Z friendly colour schemes.</li> </ul> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>sassafras
+sassafras                                   <span class="c"># or: python -m sassafras</span>
+
+sassafras run_1234.xml run_1235.h5 <span class="nt">-m</span> core_shell_sphere <span class="nt">-s</span> hardsphere <span class="c"># launch with extra commands</span>
+sassafras /data/reduced/                    <span class="c"># every readable file in a folder (≤ 50)</span>
+</code></pre></div></div> <h2 id="where-it-fits">Where it fits</h2> <p>Sassafras is not intended to be a replacement for SasView. I want it to be a tool that users reach for in their first five minutes with a new curve, on a beamline, or at the desk. It naturally hands over to scripting with IQuana, or whatever other analysis, once you know what you are doing. Since version 0.5 it lives under the <a href="https://github.com/SasView/sassafras" rel="external nofollow noopener" target="_blank">SasView organisation on GitHub</a> alongside sasmodels, IQuana and sasdata, and it is BSD licensed.</p> <p>It is still in beta (version 0.7.0 at the time of writing), so expect rough edges. Bug reports, feature requests and pull requests are super welcome on GitHub, and if it is useful in your work, in addition to SasView and sasmodels, it can be cited through its <a href="https://doi.org/10.5281/zenodo.24041504" rel="external nofollow noopener" target="_blank">Zenodo DOI</a>.</p> </div> </article> <br> <hr> <br> <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2> <p class="mb-2">Here are some more articles you might like to read next:</p> <ul class="list-disc pl-7 my-3 space-y-2 marker:text-[var(--global-theme-color)]"> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2026/hello/">Hello</a> </li> </ul> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Oliver S. Hammond. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Last updated: November 13, 2026. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-publications",
+          title: "publications",
+          description: "Journal articles and book chapters, newest first. † corresponding author, * joint first author.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "A condensed CV. Publications are listed on the publications page.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-openings",
+          title: "openings",
+          description: "Positions and projects to work with me.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/openings/";
+          },
+        },{id: "post-sassafras-a-new-easy-tool-for-small-angle-scattering",
+        
+          title: "Sassafras: a new easy tool for small-angle scattering",
+        
+        description: "Lightweight browser-based software for fitting your SANS or SAXS data.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/sassafras/";
+          
+        },
+      },{id: "post-hello",
+        
+          title: "Hello",
+        
+        description: "A first post, and what this blog is for.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/hello/";
+          
+        },
+      },{id: "news-this-website-is-live-publications-cv-and-the-occasional-blog-post-will-be-kept-here",
+          title: 'This website is live. Publications, CV and the occasional blog post will be...',
+          description: "",
+          section: "News",},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%6F%6C%69%76%65%72.%68%61%6D%6D%6F%6E%64@%65%73%73.%65%75", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-5612-9343", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=wJZdwpQAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/olihammond", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/olihammond", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
