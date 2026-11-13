@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sassafras: a new easy tool for small-angle scattering"
-date: 2026-11-13 15:00:00+0100
+date: 2026-11-13 11:40:00+0100
 description: Lightweight browser-based software for fitting your SANS or SAXS data.
 tags: sans saxs software sasview
 categories: software
