@@ -110,9 +110,9 @@ cv:
         start_date: "2003-09"
         end_date: "2010-07"
     Research Funding:
-      - bullet: 'Co-investigator on three grants, with a personal share of approximately **13.1M DKK**, including ca. 3M DKK as PI for a postdoctoral position.'
+#      - bullet: 'Co-investigator on three grants, with a personal share of approximately **13.1M DKK**, including ca. 3M DKK as PI for a postdoctoral position.'
       - bullet: '**[NEUDATA4LIFE ESS Lighthouse](https://chem.au.dk/forskning/core-faciliteter-og-forskningscentre/neudata4life)**, Uddannelses- og Forskningsstyrelsen (Danish Agency for Higher Education and Science) — co-investigator, and PI for a postdoctoral position (ca. 3M DKK); 38.8M DKK in total, 10 Dec 2025 – 9 Dec 2030'
-      - bullet: '**The Lifecycle of a Lipid Nanoparticle**, Vetenskapsrådet (Swedish Research Council) ESS Early Science project — co-investigator in a consortium led by KTH and Chalmers (2026)'
+      - bullet: '**The Lifecycle of a Lipid Nanoparticle**, Vetenskapsrådet (Swedish Research Council) ESS Early Science project — co-investigator representing DMSC in a large Swedish-led consortium (2026)'
       - bullet: '**Fast and efficient scattering prediction in protein samples**, HALRIC (Hanseatic Life Science Research Infrastructure Consortium) — co-applicant at 10%, PI: Lund; 883,000 SEK (Nov 2024)'
     Honors and Awards:
       - title: Molten Salts Discussion Group Early Career Travel Bursary
