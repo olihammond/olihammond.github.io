@@ -11,11 +11,13 @@ categories: software
 
 ## sassafras has some cute features:
 
-- **Guess.** The `Guess` button interpolates and compares your curve against [a simulated library](https://doi.org/10.5281/zenodo.24080759), derived from the original [SAS-55M-20k set of Yildirim, Doutch and Cole](https://doi.org/10.1039/d3dd00225j]) by adding 'strong' and 'weak' HS and RMSA S(Q) to a subset of structures. `Guess` proposes a ranked list of models with starting values. I have found this to work surprisingly well, but it should be used with caution, particularly for datasets which are noisy or which contain multiple P(Q) contributions. 
+- **Guess.** The `Guess` button interpolates and compares your curve against [a simulated library](https://doi.org/10.5281/zenodo.24080759), derived from the original [SAS-55M-20k set of Yildirim, Doutch and Cole](https://doi.org/10.1039/d3dd00225j) by adding 'strong' and 'weak' HS and RMSA S(Q) to a subset of structures. `Guess` proposes a ranked list of models with starting values. I have found this to work surprisingly well, but it should be used with caution, particularly for datasets which are noisy or which contain multiple P(Q) contributions. 
 - **Sliders.** It sounds trite, but these are incredibly helpful for exploring form factors and your fits. 
 - **Simultaneous constrained fits with multiple P(Q).** This is a workflow that is possible, but a bit annoying, in SasView. In sassafras you can load multiple datasets (including a whole folder ≤50 files) and enable the `Fit` and `Multi` buttons to model them using simultaneous constraints. Freely set parameters per dataset, and choose whether they are shared, or individually fitted, or fixed. This supports quite complicated modelling too: with `Mix` you can enable up to 4 P(Q), the first of which can also be P(Q) * S(Q).
 - **Export to IQuana notebook.** Continue your fitting by directly generating notebooks, rather than in a GUI. We envisage IQuana to be a very useful tool for open scientific publishing, which enables subsequent users to simply follow a jupyter notebook to reproduce your fitting results. Obviously, this also works identically to the much beloved SasView GUI, under the hood. 
 - **Themes.** You can pick light/dark mode (obviously), and more importantly a series of gen-Z friendly colour schemes. 
+
+{% include figure.liquid path="assets/img/sassafras-guess.png" class="img-fluid rounded z-depth-1" zoomable=true caption="`Guess`: the library match suggests, among others, a multilayer vesicle for this data and finds starting values, ready to refine using the sliders or a fit. The simulated dataset was dioleoylphosphatidylcholine or DOPC, C<sub>44</sub>H<sub>84</sub>NO<sub>8</sub>P, 10 mg/mL in D<sub>2</sub>O, at 25 °C " %}
 
 
 ```bash
