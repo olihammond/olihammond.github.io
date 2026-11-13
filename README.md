@@ -6,7 +6,7 @@ Source for my personal site, <https://olihammond.github.io>. Built with the [al-
 
 | To change...                 | Edit...                                                                                |
 | ---------------------------- | -------------------------------------------------------------------------------------- |
-| Front page text and photo    | `_pages/about.md`, `assets/img/prof_pic.png`                                           |
+| Front page text and photo    | `_pages/about.md`, `assets/img/prof_pic.jpg`                                           |
 | CV                           | `_data/cv.yml`                                                                         |
 | Publications                 | `_bibliography/papers.bib` (add `selected = {true}` to feature one on the front page)  |
 | Job openings                 | `_data/openings.yml` (an empty list shows the "no positions" message)                  |

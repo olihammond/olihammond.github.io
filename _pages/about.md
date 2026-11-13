@@ -6,7 +6,7 @@ subtitle: Computational Instrument Scientist, <a href='https://ess.eu/ESSscienti
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>ESS Data Management &amp; Scientific Computing</p>

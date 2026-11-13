@@ -9,298 +9,174 @@ cv:
   email: oliver.hammond@ess.eu
   location: Copenhagen, Denmark
   social_networks:
-  - network: LinkedIn
-    username: olihammond
-  - network: ORCID
-    username: 0000-0002-5612-9343
-  - network: Google Scholar
-    username: wJZdwpQAAAAJ
+    - network: LinkedIn
+      username: olihammond
+    - network: ORCID
+      username: 0000-0002-5612-9343
+    - network: Google Scholar
+      username: wJZdwpQAAAAJ
   sections:
-
     Experience:
-    - company: European Spallation Source (ESS) ERIC
-      position: Computational Instrument Scientist
-      url: https://ess.eu/ESSscientists
-      location: Copenhagen, Denmark & Lund, Sweden
-      start_date: "2024-09"
-      end_date: present
-      highlights:
-      - Instrument Scientist at the Data Management & Scientific Computing (DMSC) division, for Small-angle neutron scattering operations at ESS, responsible for data handling in instrument development, analysis, reduction pipelines and commissioning.
-      - Independent senior researcher with extensive experience in scattering, ionic solvents and data modelling.
-
-    - company: KTH Royal Institute of Technology
-      position: Affiliated Faculty
-      url: https://www.kth.se/profile/ohammond
-      location: Stockholm, Sweden
-      start_date: "2025-03"
-      end_date: present
-      highlights:
-      - Adjunct position (0.2 FTE) within the School of Engineering Sciences in Chemistry, Biotechnology and Health, at the Division of Surface and Corrosion Science, in collaboration with Prof. Mark Rutland.
-      - Focus on *‘Neutronspridning för studier av mjuka material’* (Neutron scattering of soft materials) with both educational and research activities.
-      - Expert [member of the KTH RELAX](https://www.kth.se/relax/about/kth-experts-1.1423836) (Research using Large-Scale Experimental Facilities) programme
-
-    - company: The University of New South Wales
-      position: Visiting Fellow
-      url: https://www.unsw.edu.au/staff/oliver-hammond
-      location: Sydney, Australia
-      start_date: "2026-01"
-      end_date: present
-      highlights:
-      - Adjunct position in the School of Chemistry.
-      - Collaboration with the group of Prof. Jason Harper on the topic of Ionic Liquids.
-
-    - company: LINXS Institute of Advanced Neutron and X-ray science
-      position: LINXS Fellow
-      url: https://www.linxs.se/people-young-researchers-initiative/oliver-hammond
-      location: Lund, Sweden
-      start_date: "2025-01"
-      end_date: present
-      highlights:
-      - Responsible for coordinating the Young Researchers' Initiative (YRI) in Soft Matter, putting together annual symposia and other meetings.
-
-    - company: Aarhus Universitet & Stockholms Universitet
-      position: Postdoctoral Researcher
-      location: Aarhus, Denmark & Stockholm, Sweden
-      start_date: "2020-12"
-      end_date: "2024-08"
-      highlights:
-      - Initially in the Department of Materials and Environmental Chemistry (Stockholm).
-      - Group moved to the Department of Biological and Chemical Engineering (Aarhus) on 15/12/22, to continue work on Ionic Liquids (ILs) and Deep Eutectic Solvents (DES), using scattering to study nanostructure, and IL and DES-based nanoparticle synthesis methods.
-      - Major collaboration with Prof Mark Rutland, Prof Sergei Glavatskih (KTH, Sweden), Prof Oleg Antzutkin (LTU, Sweden) and Prof Thomas Norrby (Nynas AB, Sweden), using SAXS, SANS, and neutron reflectivity to understand and develop lubricants *via* self-assembly of orthoborate ILs.
-
-    - company: École Normale Supérieure de Lyon
-      position: Postdoctoral Researcher
-      location: Lyon, France
-      start_date: "2019-10"
-      end_date: "2020-12"
-      highlights:
-      - Working with Prof Agílio Padua and Dr Margarida Costa Gomes on Molecular Dynamics (MD) modelling of structure and solvation in Deep Eutectic Solvent (DES) mixtures.
-      - Developing independent research into DES with pure theoretical studies and collaboration with local and international experimentalists.
-      - Studied French to A2 Level at the ENS.
-
-    - company: QUILL Centre, Queen's University Belfast
-      position: Research Fellow
-      location: Belfast, UK
-      start_date: "2018-11"
-      end_date: "2019-08"
-      highlights:
-      - Evaluating the potential of zwitterionic salts, ie. \[A⁺B⁺X⁻\]\[Y\]⁻ systems for protein-resistance with Prof John Holbrey and Dr Marijana Blesic.
-      - Developed new zwitterions; analysis of solution structure and properties using neutron diffraction, EPSR modelling and quantum chemical calculations to determine hydration and kosmotropicity.
-      - 'Teaching: Supervision of 3 Masters-level students.'
-
-    - company: The University of Western Australia
-      position: Research Internship
-      location: Perth, Australia
-      start_date: "2017-09"
-      end_date: "2017-12"
-      highlights:
-      - Funding awarded for a 3-month research visit in Prof Rob Atkin's group at UWA, learning the technique Atomic Force Microscopy (AFM).
-
-    - company: Bristol ChemLabS Centre for Excellence in Teaching and Learning
-      position: Summer Internship
-      location: Bristol, UK
-      start_date: "2012-07"
-      end_date: "2012-09"
-      highlights:
-      - Development of web-based teaching tools to enhance the delivery of the undergraduate practical chemistry laboratory course.
-
+      - company: European Spallation Source (ESS) ERIC
+        position: Computational Instrument Scientist
+        url: https://ess.eu/ESSscientists
+        location: Copenhagen, Denmark<br>Lund, Sweden
+        start_date: "2024-09"
+        end_date: present
+        highlights:
+          - Instrument Scientist at the Data Management & Scientific Computing (DMSC) division, for Small-angle neutron scattering operations at ESS, responsible for data handling in instrument development, analysis, reduction pipelines and commissioning.
+          - Independent senior researcher with extensive experience in scattering, ionic solvents and data modelling.
+      - company: KTH Royal Institute of Technology
+        position: Affiliated Faculty
+        url: https://www.kth.se/profile/ohammond
+        location: Stockholm, Sweden
+        start_date: "2025-03"
+        end_date: present
+        highlights:
+          - Adjunct position (0.2 FTE) within the School of Engineering Sciences in Chemistry, Biotechnology and Health, at the Division of Surface and Corrosion Science, in collaboration with Prof. Mark Rutland.
+          - Focus on *‘Neutronspridning för studier av mjuka material’* (Neutron scattering of soft materials) with both educational and research activities.
+          - Expert [member of the KTH RELAX](https://www.kth.se/relax/about/kth-experts-1.1423836) (Research using Large-Scale Experimental Facilities) programme
+      - company: The University of New South Wales
+        position: Visiting Fellow
+        url: https://www.unsw.edu.au/staff/oliver-hammond
+        location: Sydney, Australia
+        start_date: "2026-01"
+        end_date: present
+        highlights:
+          - Adjunct position in the School of Chemistry.
+          - Collaboration with the group of Prof. Jason Harper on the topic of Ionic Liquids.
+      - company: LINXS Institute of Advanced Neutron and X-ray science
+        position: LINXS Fellow
+        url: https://www.linxs.se/people-young-researchers-initiative/oliver-hammond
+        location: Lund, Sweden
+        start_date: "2025-01"
+        end_date: present
+        highlights:
+          - Responsible for coordinating the Young Researchers' Initiative (YRI) in Soft Matter, putting together annual symposia and other meetings.
+      - company: Aarhus Universitet & Stockholms Universitet
+        position: Postdoctoral Researcher
+        location: Aarhus, Denmark<br>Stockholm, Sweden
+        start_date: "2020-12"
+        end_date: "2024-08"
+        summary: Nanostructure of ionic liquids and deep eutectic solvents by scattering, and their use in nanoparticle synthesis; self-assembling orthoborate ionic liquid lubricants with KTH, LTU and Nynas AB.
+      - company: École Normale Supérieure de Lyon
+        position: Postdoctoral Researcher
+        location: Lyon, France
+        start_date: "2019-10"
+        end_date: "2020-12"
+        summary: Molecular dynamics modelling of structure and solvation in deep eutectic solvents, with Prof Agílio Padua and Dr Margarida Costa Gomes.
+      - company: QUILL Centre, Queen's University Belfast
+        position: Research Fellow
+        location: Belfast, UK
+        start_date: "2018-11"
+        end_date: "2019-08"
+        summary: Zwitterionic salts for protein resistance, studied by neutron diffraction and modelling, with Prof John Holbrey and Dr Marijana Blesic.
+      - company: The University of Western Australia
+        position: Research Internship
+        location: Perth, Australia
+        start_date: "2017-09"
+        end_date: "2017-12"
+        summary: Atomic force microscopy in Prof Rob Atkin's group.
+      - company: Bristol ChemLabS Centre for Excellence in Teaching and Learning
+        position: Summer Internship
+        location: Bristol, UK
+        start_date: "2012-07"
+        end_date: "2012-09"
     Education:
-    - institution: University of Bath & STFC ISIS Neutron and Muon Source
-      location: Bath & Harwell/Oxford, UK
-      area: Physical Chemistry
-      studyType: PhD
-      start_date: "2015-10"
-      end_date: "2019-06"
-      highlights:
-      - '[‘Deep Eutectic Solvents: Structure, Solvation and Synthesis’, with PIs Prof Karen Edler (Bath) and Dr Daniel Bowron (ISIS).](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.782236)'
-      - 'Primary focus: Nanoscale structuring in Deep Eutectic Solvents (DES) and DES-water mixtures using neutron scattering and atomistic modelling.'
-      - 'Side-projects: Synthesis of nanostructured metal oxides in DES and DES-water mixtures, and amphiphile self-assembly in DES.'
-      - 'Teaching: Direct supervision of 1 Masters-level student per academic year and involved in general supervision of further students; physical chemistry laboratory demonstrator for 1st year and 2nd year Chemistry MChem and Natural Sciences BSc students.'
-
-    - institution: University of Bath
-      location: Bath, UK
-      area: Sustainable Chemical Technologies
-      studyType: MRes (with Merit)
-      start_date: "2014-10"
-      end_date: "2015-09"
-      highlights:
-      - 'Studied Masters modules: Public Engagement, Environmental Management, Commercialization of Novel Technologies, Sustainable Development, Clean Technology.'
-      - 'Gained experience in scientific outreach: designed and presented an exhibit on ‘Sustainability and Colloids’ at the 2016 Cheltenham Science Festival (UK) and at ‘Bath Taps Into Science’.'
-      - MRes research projects in DES nanostructure and metal oxide synthesis.
-
-    - institution: University of Bristol
-      location: Bristol, UK
-      area: Chemistry
-      studyType: MSci (Hons), 2.i
-      start_date: "2010-10"
-      end_date: "2014-07"
-      highlights:
-      - 'Masters thesis: ''Low surface energy hydrocarbon ionic liquid ''hedgehog'' surfactants'' with Prof Julian Eastoe (Bristol) and Dr Shirin Alexander (Swansea). Final year specialisation in Physical and Inorganic Chemistry with biochemistry elective.'
-
-    - institution: Lawrence Sheriff School
-      location: Rugby, UK
-      studyType: Sixth Form and Secondary School
-      start_date: "2003-09"
-      end_date: "2010-07"
-      highlights:
-      - A-Levels in Chemistry (A), Biology (A) and Physics (A).
-      - 'Extended Project independent research thesis: ''Is ethanol the fuel of the future?'' Grade: 100%'
-
+      - institution: University of Bath & STFC ISIS Neutron and Muon Source
+        location: Bath<br>Harwell/Oxford, UK
+        area: Physical Chemistry
+        studyType: PhD
+        start_date: "2015-10"
+        end_date: "2019-06"
+        highlights:
+          - '[‘Deep Eutectic Solvents: Structure, Solvation and Synthesis’, with PIs Prof Karen Edler (Bath) and Dr Daniel Bowron (ISIS).](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.782236)'
+      - institution: University of Bath
+        location: Bath, UK
+        area: Sustainable Chemical Technologies
+        studyType: MRes (with Merit)
+        start_date: "2014-10"
+        end_date: "2015-09"
+      - institution: University of Bristol
+        location: Bristol, UK
+        area: Chemistry
+        studyType: MSci (Hons), 2.i
+        start_date: "2010-10"
+        end_date: "2014-07"
+      - institution: Lawrence Sheriff School
+        location: Rugby, UK
+        studyType: Sixth Form and Secondary School
+        start_date: "2003-09"
+        end_date: "2010-07"
     Honors and Awards:
-    - title: 'Fast and efficient scattering prediction in protein samples (PI: Lund, co-applicant at 10%)'
-      awarder: HALRIC (Hanseatic Life Science Research Infrastructure Consortium; 883000 SEK)
-      date: "2024-11-01"
-      summary: Lund, Sweden
-
-    - title: Molten Salts Discussion Group Early Career Travel Bursary
-      awarder: MSDG Young Researchers’ Meeting (£100)
-      date: "2018-09-13"
-      summary: Belfast, UK
-
-    - title: RSC Faraday Group Conference Travel Bursary
-      awarder: European Colloids and Interface Science Conference (£400)
-      date: "2018-09-04"
-      summary: Ljubljana, Slovenia
-
-    - title: Armourers & Brasiers’ Company Gauntlet Trust Research Student Travel Award
-      awarder: Gordon Research Conference and Seminar on Ionic Liquids (£900)
-      date: "2018-08-11"
-      summary: Newry ME, US
-
-    - title: Centre for Sustainable Chemical Technologies Research Internship Award
-      awarder: 3-month research internship award for the University of Western Australia (£3000)
-      date: "2017-09-21"
-      summary: Perth, Australia
-
-    - title: STFC Best Poster Prize
-      awarder: UK Neutron & Muon Science Users' Meeting
-      date: "2017-06-28"
-      summary: Warwick, UK
-
-    - title: Centre for Sustainable Chemical Technologies Conference Travel Grant
-      awarder: DECHEMA Green Solvents Conference & Workshop (£700)
-      date: "2016-10-17"
-      summary: Kiel, Germany
-
-    Beamtime Awards as (Co-)Proposer:
-    - bullet: 152 total awarded days as proposer or named co-proposer, with estimated commercial in-kind value of £2M.
-    - bullet: 182 total days attended as experimenter.
-    - bullet: '**Water in Salt Electrolytes – A WiSE Choice for Battery Advancement (SI42825)**, XRR, 4 days; est. value £41k. PI: Rutland — I07, Diamond (Sep 2026)'
-    - bullet: '**Probing the Electroresponsivity of Segregated Aqueous Nanodomains in Ionic Liquid Matrices (RB2520493)**, Diffraction, 4 days; est. value £54k. PI: Kollau — NIMROD, ISIS (Mar 2026)'
-    - bullet: '**Water in Salt Electrolytes – A WiSE Choice for Battery Advancement (N:P20852)**, SANS & NR, 3+5 days; est. value £108k. PI: Rutland — BILBY/PLATYPUS, ANSTO (Jan 2026)'
-    - bullet: '**Shear induced restructuring in greases probed in-situ by rheo-SANS (N:P21498)**, SANS, 5 days; est. value £67k. PI: Glavatskih — BILBY, ANSTO (Dec 2025)'
-    - bullet: '**Water in Salt Electrolytes – A WiSE Choice for Battery Advancement (IPTS-35290.1)**, NR, 4 days; est. value £54k. PI: Rutland — BL4B LIQREF, SNS (Oct 2025)'
-    - bullet: '**Water in Salt Electrolytes – A WiSE Choice for Battery Advancement (9-10-1913)**, SANS/WANS, 4 days; est. value £54k. PI: Rutland — D16, ILL (Sep 2025)'
-    - bullet: '**Structuring in greases: influence of thermomechanical degradation (P20104)**, SANS, 5 days, USANS, 6 days; est. value £149k. PI: Glavatskih — BILBY/KOOKABURRA, ANSTO (Jul 2025)'
-    - bullet: '**Coupling phosphonium-orthoborate ionic liquid lubricant anion architecture with bulk nanostructure (P18634)**, SANS, 4 days; est. value £54k. PI: **Hammond** — BILBY, ANSTO (May 2025)'
-    - bullet: '**Surface Active Ionic Liquids in Ionic Liquids for supercapacitors (ND18730)**, Reflectivity & SANS, 6 days; est. value £82k. PI: Rutland — PLATYPUS/BILBY, ANSTO (May 2025)'
-    - bullet: '**Nanostructural Response of Modified Phosphorus and Boron-based Ionic Liquids Under Extreme Pressure (SM37973)**, SWAXS, 3 days; est. value £41k. PI: Glavatskih — I22, Diamond (Oct 2024)'
-    - bullet: '**Non-halogenated dicationic ionic liquid: interfacial structure-property relationship for lubricants and capacitors (CRG-3038)**, Reflectivity, 5 days; est. value £67k. PI: Rutland — SuperADAM, ILL (Jun 2024)'
-    - bullet: '**Orthoborate Ionic Liquids: Nanostructures under extreme pressures (SM34479)**, SWAXS, 3 days; est. value £41k. PI: Glavatskih — I22, Diamond (Mar 2024)'
-    - bullet: '**Non-halogenated dicationic ionic liquid films: tuneable responsivity for electro-lubrication (P16994)**, Reflectivity, 5 days; est. value £67k. PI: Rutland — PLATYPUS, ANSTO (Jan 2024)'
-    - bullet: '**Self-assembly of orthoborate ionic liquids in variable-dielectric environments (P16734)**, SANS, 4 days; est. value £54k. PI: Rutland — BILBY, ANSTO (Oct 2023)'
-    - bullet: '**Nanostructure of lubricative phosphonium-orthoborate ionic liquids (P13958)**, SANS, 8 days; est. value £108k. PI: Rutland — BILBY, ANSTO (Dec 2022)'
-    - bullet: '**Nanostructure comparison of phosphonium and imidazolium-orthoborate ionic liquids (RB2200313)**, Diffraction, 1 day; est. value £13k. PI: **Hammond** — NIMROD, ISIS (Nov 2022)'
-    - bullet: '**Nanostructure of phosphonium orthoborate ionic liquids for lubrication (RB2210058)**, SANS, 2 days; est. value £27k. PI: Rutland — SANS2D, ISIS (Jan 2022)'
-    - bullet: '**PEG-Deep Eutectic Solvents for Nanoparticle Synthesis (RB1820398)**, Diffraction, 4 days; est. value £54k. PI: Edler — NIMROD, ISIS (Dec 2018)'
-    - bullet: '**Formation of Iron Oxide Nanoparticles in Deep Eutectic Solvents (SP17574-1 & SP17574-2)**, EXAFS, 8 days; est value £108k. PI: Edler — I20-EDE, Diamond (Mar 2018)'
-    - bullet: '**Denitrogenation of fuel oils using hydrated choline chloride:malic acid DES (RB1720287)**, Diffraction, 3 days; est. value £41k. PI: Edler — NIMROD, ISIS (Feb 2018)'
-    - bullet: '**Surfactant self-assembly in mixed choline chloride:urea-choline chloride:glycerol deep eutectic solvents (RB1720289)**, SANS, 5 days; est. value £67k. PI: Edler — LOQ, ISIS (Feb 2018)'
-    - bullet: '**Formation of Iron Oxide Nanoparticles in Deep Eutectic Solvents (P6216)**, SANS, 5 days; est. value £67k. PI: Edler — BILBY, ANSTO (Oct 2017)'
-    - bullet: '**Surfactant Self-Assembly in Dry & Hydrated Deep Eutectic Solvents (SM15194)**, SAXS, 1 day; est. value £13k. PI: Edler — I22, Diamond (Feb 2017)'
-    - bullet: '**Growth of Nanostructured Ceria in Choline Chloride:Urea-Water Deep Eutectic Solvent (RB1620292)**, Diffraction, 6 days; est. value £81k. PI: Edler — NIMROD, ISIS (Dec 2016)'
-    - bullet: '**Cationic surfactant self-assembly in choline chloride:malonic acid deep eutectic solvent (RB1620239)**, SANS, 4 days; est value £54k. PI: Edler — SANS2D, ISIS (Nov 2016)'
-    - bullet: '**Linking solvent structure to materials synthesis: Choline Chloride:Urea-Water and Choline Chloride:Malonic Acid (RB1620479)**, Diffraction, 5 days; est. value £67k. PI: Edler — SANDALS, ISIS (Oct 2016)'
-    - bullet: '**Linking solvent structure to materials synthesis: Choline Chloride:Urea-Water effects on Nanostructured Ceria (RB1610312)**, Diffraction, 5 days; est. value £67k. PI: Edler — NIMROD, ISIS (Mar 2016)'
-    - bullet: '**Applying self-assembly in deep eutectic solvents to templated ionothermal synthesis (RB1610337)**, SANS, 4 days; est. value £54k. PI: Edler — SANS2D, ISIS (Mar 2016)'
-    - bullet: '**Rod-to-Sphere Transition in SDS Micelles in Choline Choride:Urea Deep Eutectic Solvent (RB1520291)**, SANS, 5 days; est. value £67k. PI: Edler — SANS2D, ISIS (Oct 2015)'
-    - bullet: '**Surfactant Self-Assembly in Deep Eutectic Solvents Containing Water (SM11392)**, SAXS, 1 day; est. value £13k. PI: Edler — I22, Diamond (May 2015)'
-    - bullet: '**Deep Eutectic Solvents: Metal Ion Dissolution (RB1510465)**, Diffraction, 7 days; est. value £94k. PI: Edler — SANDALS, ISIS (Mar 2015)'
-
+      - title: 'Fast and efficient scattering prediction in protein samples (PI: Lund, co-applicant at 10%)'
+        awarder: HALRIC (Hanseatic Life Science Research Infrastructure Consortium; 883000 SEK)
+        date: '2024-11-01'
+        summary: Lund, Sweden
+      - title: Molten Salts Discussion Group Early Career Travel Bursary
+        awarder: MSDG Young Researchers’ Meeting (£100)
+        date: '2018-09-13'
+        summary: Belfast, UK
+      - title: RSC Faraday Group Conference Travel Bursary
+        awarder: European Colloids and Interface Science Conference (£400)
+        date: '2018-09-04'
+        summary: Ljubljana, Slovenia
+      - title: Armourers & Brasiers’ Company Gauntlet Trust Research Student Travel Award
+        awarder: Gordon Research Conference and Seminar on Ionic Liquids (£900)
+        date: '2018-08-11'
+        summary: Newry ME, US
+      - title: Centre for Sustainable Chemical Technologies Research Internship Award
+        awarder: 3-month research internship award for the University of Western Australia (£3000)
+        date: '2017-09-21'
+        summary: Perth, Australia
+      - title: STFC Best Poster Prize
+        awarder: UK Neutron & Muon Science Users' Meeting
+        date: '2017-06-28'
+        summary: Warwick, UK
+      - title: Centre for Sustainable Chemical Technologies Conference Travel Grant
+        awarder: DECHEMA Green Solvents Conference & Workshop (£700)
+        date: '2016-10-17'
+        summary: Kiel, Germany
+    Beamtime:
+      - bullet: '**152 days** of beamtime awarded as proposer or named co-proposer, across 31 proposals between 2015 and 2026 (two as principal investigator), with an estimated in-kind value of **£2M**.'
+      - bullet: '**182 days** attended as experimenter.'
+      - bullet: '**Neutron facilities:** ISIS (NIMROD, SANDALS, SANS2D, LOQ), ANSTO (BILBY, KOOKABURRA, PLATYPUS), ILL (D16, SuperADAM) and SNS (LIQREF).'
+      - bullet: '**Synchrotron:** Diamond Light Source (I07, I22, I20-EDE).'
+      - bullet: '**Techniques:** small-angle and ultra-small-angle neutron scattering, neutron total scattering, neutron and X-ray reflectivity, SAXS/WAXS and EXAFS.'
     Invited Talks:
-    - bullet: '**Reducing Friction for Molecules, Modelling, and Machines**, ESS SAC Science Talk — Lund, Sweden (24 Apr 2026)'
-    - bullet: '**Adventures with ionic mixtures**, LEO Foundation Center for Cutaneous Drug Delivery Guest Seminar — Copenhagen, Denmark (12 Jan 2026)'
-    - bullet: '**Update on ESS, DMSC & LoKI SANS**, ANSTO Bragg Institute Guest Seminar — Sydney, Australia (25 Jul 2025)'
-    - bullet: '**Neutrons in a haystack: Approaching small-angle scattering at ESS**, DanScatt meeting — Odense, Denmark (27 May 2025)'
-    - bullet: '**Metal ion dissolution in deep eutectic solvents**, ISIS Disordered Materials User Group Meeting — Oxford, UK (16 Apr 2024)'
-    - bullet: '**Oils of the Future**, OILS Symposium — Sydney, Australia (2 Jan 2024)'
-    - bullet: '**Structuring in a “green and sustainable” bio-oil**, LINXS Young Researchers'' Symposium on Soft Matter — Lund, Sweden (6 Oct 2023)'
-    - bullet: '**SANS measurements of nanostructure in bis(orthoborate) ionic liquids**, iNANO – Nano Talks — Aarhus, Denmark (2 Jun 2023)'
-    - bullet: '**Adventures with eutectic solvents**, University of New South Wales (UNSW) Department of Chemistry Seminar — Sydney, Australia (14 Feb 2023)'
-    - bullet: '**Nanostructure in bis(orthoborate) ionic liquids: a small-angle scattering study**, OILS Symposium — Stockholm, Sweden (20 Oct 2022)'
-    - bullet: '**Discussion Leader: Understanding the Correlation of Structure and Properties of Ionic Liquids/Deep Eutectic Solvents**, Gordon Research Seminar on Ionic Liquids — Newry ME, USA (6 Aug 2022)'
-    - bullet: '**Atomistic studies of solvation in deep eutectic solvents**, Polimi CMIC Seminar Series — Milan, Italy (5 Nov 2021)'
-    - bullet: '**Academic Career Guidance Talk**, CSCT Alumni Seminar — Bath, UK (21 Apr 2021)'
-    - bullet: '**Disorder in Deep Eutectics**, ISIS Disordered Materials User Group Meeting — Oxford, UK (21 Jan 2020)'
-    - bullet: '**Scattering studies of deep eutectic solvents**, Theoretical Chemistry Departmental Seminar — Lyon, France (14 Jun 2019)'
-    - bullet: '**Time-resolved studies of nanoparticle assembly in a deep eutectic solvent**, UK Neutron & Muon Science Users’ Meeting — Warwick, UK (26 Apr 2018)'
-    - bullet: '**Green Solvents: Are we wasting our time? (Panel Discussion Chair – with Prof. Roger A. Sheldon)**, 10th Anniversary CSCT Summer Showcase — Bath, UK (26 Jun 2018)'
-    - bullet: '**Nanostructure of Deep Eutectic Solvents measured by neutron diffraction and atomistic modelling**, ISIS Disordered Materials User Group Meeting — Oxford, UK (15 Feb 2017)'
-
+      - bullet: '**Reducing Friction for Molecules, Modelling, and Machines**, ESS SAC Science Talk — Lund, Sweden (24 Apr 2026)'
+      - bullet: '**Adventures with ionic mixtures**, LEO Foundation Center for Cutaneous Drug Delivery Guest Seminar — Copenhagen, Denmark (12 Jan 2026)'
+      - bullet: '**Update on ESS, DMSC & LoKI SANS**, ANSTO Bragg Institute Guest Seminar — Sydney, Australia (25 Jul 2025)'
+      - bullet: '**Neutrons in a haystack: Approaching small-angle scattering at ESS**, DanScatt meeting — Odense, Denmark (27 May 2025)'
+      - bullet: '**Metal ion dissolution in deep eutectic solvents**, ISIS Disordered Materials User Group Meeting — Oxford, UK (16 Apr 2024)'
+      - bullet: '**Oils of the Future**, OILS Symposium — Sydney, Australia (2 Jan 2024)'
+      - bullet: '**Structuring in a “green and sustainable” bio-oil**, LINXS Young Researchers'' Symposium on Soft Matter — Lund, Sweden (6 Oct 2023)'
+      - bullet: '**SANS measurements of nanostructure in bis(orthoborate) ionic liquids**, iNANO – Nano Talks — Aarhus, Denmark (2 Jun 2023)'
+      - bullet: '**Adventures with eutectic solvents**, University of New South Wales (UNSW) Department of Chemistry Seminar — Sydney, Australia (14 Feb 2023)'
+      - bullet: Plus 9 earlier invited talks, seminars and discussion-leader roles (2017–2022) in the UK, France, Italy, Sweden and the USA.
     Contributed Talks:
-    - bullet: '**Non-aqueous self assembly of bis(orthoborate) ionic liquids**, 27th Congress and General Assembly of the International Union of Crystallography (IUCr26), *MS-003: Self-assembly and structure of the world around us: food, detergents, and paints* — Calgary AB, Canada (12 Aug 2026)'
-    - bullet: '**Structure of Rare Earth Metal Ions in Deep Eutectic Solvents**, International Conference on Neutron Scattering 2025, *Deuteration Matters Mini-Symposium* — Copenhagen, Denmark (6 Jul 2025)'
-    - bullet: '**The effect of ion architecture on bulk nanostructure in bis(orthoborate) ionic liquids**, 9th International Congress on Ionic Liquids (COIL9) — Lyon, France (24 Mar 2023)'
-    - bullet: '**Deep Eutectic Solvents: Ionic(ish) Liquids**, MSDG Young Researchers’ Meeting — Belfast, UK (13 Sep 2018)'
-    - bullet: '**Self-assembly of nanoscale structures in deep eutectic solvents**, 32nd Conference of The European Colloid and Interface Society — Ljubljana, Slovenia (4 Sep 2018)'
-    - bullet: '**Nanostructure of Deep Eutectic Solvents and DES-Water Mixtures: Advanced Ionic Liquids or Saltwater Solvents?**, Gordon Research Seminar on Ionic Liquids — Newry ME, USA (11 Aug 2018)'
-    - bullet: '**Kinetics of iron oxide nanoparticle self-assembly from deep eutectic solvents**, M4 Colloids Symposium — Bristol, UK (26 Jul 2018)'
-    - bullet: '**Formation of iron oxide nanoparticles in deep eutectic solvents: From A to Fe**, 92nd ACS Colloids and Surface Science Symposium — State College PA, USA (13 Jun 2018)'
-    - bullet: '**The nanostructure of deep eutectic solvents as measured by neutron diffraction: A perfect storm?**, MSDG Young Researchers'' Meeting — London, UK (15 Sep 2017)'
-    - bullet: '**Nanostructure of Pure and Hydrated Deep Eutectic Solvents from neutron scattering (Lightning Presentation)**, Faraday Discussion on Ionic Liquids: From Fundamental Properties to Practical Applications — Cambridge, UK (11 Sep 2017)'
-    - bullet: '**Deep Eutectic Solvents: Structure, Surfactants and Synthesis**, CSCT Summer Showcase — Bath, UK (10 Jul 2017)'
-    - bullet: '**Constructing Nanostructured Metal Oxides for Sustainability using Deep Eutectic Solvents and Total Scattering Insights**, RSC Faraday Group Conference — Warwick, UK (12 Apr 2017)'
-    - bullet: '**Deep Eutectic Solvents for Materials Synthesis**, ISIS Young Researchers'' Conference — Oxford, UK (7 Nov 2016)'
-
+      - bullet: '**Non-aqueous self assembly of bis(orthoborate) ionic liquids**, 27th Congress and General Assembly of the International Union of Crystallography (IUCr26), *MS-003: Self-assembly and structure of the world around us: food, detergents, and paints* — Calgary AB, Canada (12 Aug 2026)'
+      - bullet: '**Structure of Rare Earth Metal Ions in Deep Eutectic Solvents**, International Conference on Neutron Scattering 2025, *Deuteration Matters Mini-Symposium* — Copenhagen, Denmark (6 Jul 2025)'
+      - bullet: '**The effect of ion architecture on bulk nanostructure in bis(orthoborate) ionic liquids**, 9th International Congress on Ionic Liquids (COIL9) — Lyon, France (24 Mar 2023)'
+      - bullet: Plus 10 earlier contributed talks (2016–2018), including ECIS, the ACS Colloids and Surface Science Symposium, a Faraday Discussion and the Gordon Research Seminar on Ionic Liquids.
     Poster Presentations:
-    - bullet: '**Solvation and structuring in deep eutectics**, Gordon Research Conference on Ionic Liquids — Newry ME, USA (8 Aug 2022)'
-    - bullet: '**Exploring the Potential of Zwitterionic Salts**, 20th Anniversary QUILL Meeting — Belfast, UK (25 Mar 2019)'
-    - bullet: '**Nanostructure of Deep Eutectic Solvents and DES-Water Mixtures: Advanced Ionic Liquids or Saltwater Solvents?**, Gordon Research Conference on Ionic Liquids — Newry ME, USA (12 Aug 2018)'
-    - bullet: '**Nanostructure of Pure and Hydrated Deep Eutectic Solvents from neutron scattering**, Faraday Discussions on Ionic Liquids — Cambridge, UK (11 Sep 2017)'
-    - bullet: '**Total scattering insights into deep eutectic solvents (Awarded prize for best poster)**, UK Neutron & Muon Science Users’ Meeting — Warwick, UK (28 Jun 2017)'
-    - bullet: '**Deep Eutectic Solvents: Nanostructure, Synthesis, and Surfactants**, DECHEMA Green Solvents Conference & Workshop — Kiel, Germany (17 Oct 2016)'
-    - bullet: '**Deep Eutectic Solvents: Structure, Surfactants and Synthesis**, CSCT Summer Showcase — Bath, UK (11 Jul 2016)'
-    - bullet: '**Self-assembly of surfactants in Natural Deep Eutectic Solvents**, M4 Colloids Symposium — Bristol, UK (2 Jul 2015)'
-    - bullet: '**Deep Eutectic Solvents: Structure, Surfactants and Synthesis**, Royal Society Conference on Soft Interfacial Materials: From Fundamentals to Formulation — London, UK (12 Oct 2015)'
-
+      - bullet: 9 posters at international meetings (2015–2022), including the Gordon Research Conference on Ionic Liquids and Faraday Discussions; STFC Best Poster Prize at the 2017 UK Neutron & Muon Science Users’ Meeting.
     Online Coverage:
-    - bullet: '**[Using neutron diffraction to investigate how solutes dissolve in solvents](https://www.isis.stfc.ac.uk/Documents/ISIS_Annual_Report_2023.pdf)**, ISIS Neutron & Muon Source Annual Review (Page 34) (2024)'
-    - bullet: '**[Nanotechnology problem-solvers: ionic liquids and deep eutectic solvents](https://www.linkedin.com/posts/department-of-chemistry-aarhus-university_auchemistry-chemistry-research-activity-6902190356901748736-fh51/?utm_source=share&utm_medium=member_desktop)**, Aarhus University Highlights (2022)'
-    - bullet: '**[Tuning the Solubility of Deep Eutectic Solvents for Specific Applications](https://aip.scitation.org/doi/full/10.1063/10.0005402)**, AIP J. Chem. Phys. Scilight (2021)'
-    - bullet: '**[Zwitterions as protein repellents](https://www.isis.stfc.ac.uk/science-highlights/zwitterions-as-protein-repellents/)**, ISIS Neutron & Muon Source Science Highlights (2021)'
-    - bullet: '**[New lanthanide liquids for greener materials](https://www.isis.stfc.ac.uk/Pages/2020%20ISIS%20Annual%20Review%20-%20Web.pdf)**, ISIS Neutron & Muon Source Annual Review (Page 33) (2020)'
-    - bullet: '**[Green Solutions: Deep Eutectic Solvents](https://www.isis.stfc.ac.uk/Pages/Green-Solutions-Deep-Eutectic-Solvents.aspx)**, ISIS Neutron & Muon Source Science Highlights (2017)'
-    - bullet: '**[Making iron oxide nanostructures](https://www.diamond.ac.uk/Science/Research/Highlights/2017/eutectic-solvents.html)**, Diamond Light Source Science Highlights (2017)'
-    - bullet: '**[New insights into nanoceria synthesis using SANDALS](https://www.isis.stfc.ac.uk/Pages/New-insights-into-nanoceria-synthesis-using-Sandals.aspx)**, ISIS Neutron & Muon Source Instrument Highlights: SANDALS (2017)'
-    - bullet: '**[A new class of economic, eco-friendly solvents](https://www.isis.stfc.ac.uk/Pages/ISIS-Annual-Review-2017-out-now.aspx)**, ISIS Neutron & Muon Source Annual Review (Page 23) (2017)'
-
+      - bullet: '**[Using neutron diffraction to investigate how solutes dissolve in solvents](https://www.isis.stfc.ac.uk/Documents/ISIS_Annual_Report_2023.pdf)**, ISIS Neutron & Muon Source Annual Review (Page 34) (2024)'
+      - bullet: '**[Nanotechnology problem-solvers: ionic liquids and deep eutectic solvents](https://www.linkedin.com/posts/department-of-chemistry-aarhus-university_auchemistry-chemistry-research-activity-6902190356901748736-fh51/?utm_source=share&utm_medium=member_desktop)**, Aarhus University Highlights (2022)'
+      - bullet: '**[Tuning the Solubility of Deep Eutectic Solvents for Specific Applications](https://aip.scitation.org/doi/full/10.1063/10.0005402)**, AIP J. Chem. Phys. Scilight (2021)'
+      - bullet: '**[Zwitterions as protein repellents](https://www.isis.stfc.ac.uk/science-highlights/zwitterions-as-protein-repellents/)**, ISIS Neutron & Muon Source Science Highlights (2021)'
+      - bullet: '**[New lanthanide liquids for greener materials](https://www.isis.stfc.ac.uk/Pages/2020%20ISIS%20Annual%20Review%20-%20Web.pdf)**, ISIS Neutron & Muon Source Annual Review (Page 33) (2020)'
+      - bullet: '**[Green Solutions: Deep Eutectic Solvents](https://www.isis.stfc.ac.uk/Pages/Green-Solutions-Deep-Eutectic-Solvents.aspx)**, ISIS Neutron & Muon Source Science Highlights (2017)'
+      - bullet: '**[Making iron oxide nanostructures](https://www.diamond.ac.uk/Science/Research/Highlights/2017/eutectic-solvents.html)**, Diamond Light Source Science Highlights (2017)'
+      - bullet: '**[New insights into nanoceria synthesis using SANDALS](https://www.isis.stfc.ac.uk/Pages/New-insights-into-nanoceria-synthesis-using-Sandals.aspx)**, ISIS Neutron & Muon Source Instrument Highlights: SANDALS (2017)'
+      - bullet: '**[A new class of economic, eco-friendly solvents](https://www.isis.stfc.ac.uk/Pages/ISIS-Annual-Review-2017-out-now.aspx)**, ISIS Neutron & Muon Source Annual Review (Page 23) (2017)'
     Boards, Panels & Committees:
-    - bullet: '**20th International Small Angle Scattering Conference (SAS27)**, Local Organising Committee — Lund, Sweden (Sep 2027)'
-    - bullet: '**UK Neutron Scattering Group (NSG)**, Committee Member — UK (Sep 2026)'
-    - bullet: '**27th Congress and General Assembly of the International Union of Crystallography (IUCr26)**, Symposium chair – MS096 (*Structural characterization of amorphous solids, glasses and liquids*) — Calgary AB, Canada (Aug 2026)'
-    - bullet: '**STFC ISIS Neutron & Muon Source**, Session chair – UK Neutron and Muon Science and User Meeting (*Biosciences & Soft Matter*) — Warwick, UK (Apr 2026)'
-    - bullet: '**STFC ISIS Neutron & Muon Source**, Facility Access Panel Member – Disordered Materials — Oxford, UK (Feb 2024)'
-    - bullet: '**Frontiers in Chemistry**, Editorial Board Member – Review Editor in Green & Sustainable Chemistry (May 2023)'
-    - bullet: '**Frontiers in Chemistry**, Editorial Board Member – Review Editor in Molecular Liquids (Nov 2022)'
-    - bullet: '**2024 Gordon Research Seminar on Ionic Liquids**, Conference Chair — Newry ME, USA (Aug 2022)'
-    - bullet: '**FUSiON - The University of Bristol Undergraduate Chemistry Society**, Society Vice-President — Bristol, UK (Mar 2012)'
-    - bullet: '**FUSiON - The University of Bristol Undergraduate Chemistry Society**, Society President — Bristol, UK (Mar 2011)'
-
-    Peer Review:
-    - bullet: '**Neutron Beamtime Facility Access Proposals**, Australian Nuclear Science & Technology Organisation (ANSTO) — 20 reviews'
-    - bullet: '**The Journal of Chemical Physics**, American Institute of Physics (AIP) — 10 reviews'
-    - bullet: '**Journal of Molecular Liquids**, Elsevier — 9 reviews'
-    - bullet: '**Nature Communications**, Springer Nature — 2 reviews'
-    - bullet: '**The Journal of Physical Chemistry**, American Chemical Society (ACS) — 2 reviews'
-    - bullet: '**Journal of Solution Chemistry**, Springer Nature — 2 reviews'
-    - bullet: '**ChemPhysChem**, Wiley — 2 reviews'
-    - bullet: '**Journal of Chemical & Engineering Data**, American Chemical Society (ACS) — 2 reviews'
-    - bullet: '**Cellulose**, Wiley — 2 reviews'
-    - bullet: '**Langmuir**, American Chemical Society (ACS) — 1 review'
-    - bullet: '**ChemSusChem**, Wiley — 1 review'
-    - bullet: '**ChemistrySelect**, Wiley — 1 review'
-    - bullet: '**ACS Sustainable Chemistry & Engineering**, American Chemical Society (ACS) — 1 review'
-    - bullet: '**Molecular Physics**, Taylor and Francis — 1 review'
-    - bullet: '**Green Chemistry Letters and Reviews**, Taylor and Francis — 1 review'
-    - bullet: '**Colloids and Surfaces A: Physicochemical and Engineering Aspects**, Elsevier — 1 review'
-    - bullet: '**Journal of Inclusion Phenomena and Macrocyclic Chemistry**, Springer Nature — 1 review'
+      - bullet: '**20th International Small Angle Scattering Conference (SAS27)**, Local Organising Committee — Lund, Sweden (Sep 2027)'
+      - bullet: '**UK Neutron Scattering Group (NSG)**, Committee Member — UK (Sep 2026)'
+      - bullet: '**27th Congress and General Assembly of the International Union of Crystallography (IUCr26)**, Symposium chair – MS096 (*Structural characterization of amorphous solids, glasses and liquids*) — Calgary AB, Canada (Aug 2026)'
+      - bullet: '**STFC ISIS Neutron & Muon Source**, Session chair – UK Neutron and Muon Science and User Meeting (*Biosciences & Soft Matter*) — Warwick, UK (Apr 2026)'
+      - bullet: '**STFC ISIS Neutron & Muon Source**, Facility Access Panel Member – Disordered Materials — Oxford, UK (Feb 2024)'
+      - bullet: '**Frontiers in Chemistry**, Editorial Board Member – Review Editor in Green & Sustainable Chemistry (May 2023)'
+      - bullet: '**Frontiers in Chemistry**, Editorial Board Member – Review Editor in Molecular Liquids (Nov 2022)'
+      - bullet: '**2024 Gordon Research Seminar on Ionic Liquids**, Conference Chair — Newry ME, USA (Aug 2022)'
