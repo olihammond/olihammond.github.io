@@ -1,0 +1,45 @@
+name: Sync publications from ORCID
+
+# Checks the public ORCID record once a week and opens a pull request with any
+# works that are missing from _bibliography/papers.bib. Nothing is published
+# until you merge the pull request.
+#
+# One-off setup: Settings -> Actions -> General -> Workflow permissions ->
+# tick "Allow GitHub Actions to create and approve pull requests".
+
+on:
+  schedule:
+    - cron: "17 5 * * 1" # Mondays, 05:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  orcid-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - name: Install dependencies
+        run: pip install requests pyyaml
+      - name: Look for new works on ORCID
+        run: python bin/orcid_sync.py
+      - name: Open a pull request if anything was added
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: orcid-sync
+          delete-branch: true
+          add-paths: _bibliography/papers.bib
+          commit-message: "Add new publications from ORCID"
+          title: "New publications from ORCID"
+          body: |
+            The weekly ORCID check found works that are not yet in `_bibliography/papers.bib`.
+
+            Before merging, look at the new entries at the top of the file:
+            - author names come from the publisher, so check they match the rest of the list
+            - add `†` / `*` markers and an `annotation` line where relevant
+            - add `selected = {true}` to feature a paper on the front page

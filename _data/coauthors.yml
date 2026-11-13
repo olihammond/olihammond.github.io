@@ -1,0 +1,6 @@
+# Optional: link co-author names on the publications page to their homepages.
+# Example:
+# "rutland":
+#   - firstname: ["M. W.", "Mark W."]
+#     url: https://example.org/their-homepage
+{}

@@ -1,0 +1,15 @@
+# Job openings shown on the /openings/ page.
+# Leave the list empty ([]) and the page shows the "no open positions" message instead.
+# To advertise a position, replace `[]` with one or more entries like the commented example
+# (remove the leading "# " from each line and keep the indentation):
+#
+# - title: Postdoctoral researcher in small-angle scattering of ionic liquids
+#   type: Postdoc              # PhD, Postdoc, MSc project, Internship ...
+#   location: ESS DMSC, Copenhagen, Denmark
+#   duration: 2 years
+#   deadline: 2027-01-31       # YYYY-MM-DD; shown on the page, and the advert is marked closed after this date
+#   apply_url: https://example.org/apply
+#   summary: >
+#     One short paragraph on the project, who you are looking for, and funding.
+#     Markdown such as **bold** and [links](https://example.org) works here.
+[]

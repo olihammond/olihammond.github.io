@@ -1,0 +1,6 @@
+# Optional: colour/link for the journal badge shown when a papers.bib entry has `abbr = {...}`.
+# Example:
+# "Sci. Adv.":
+#   url: https://www.science.org/journal/sciadv
+#   color: "#a51c30"
+{}
