@@ -291,6 +291,10 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: "loki" # unlisted 3D page: reachable by URL only, kept out of the sitemap
+    values:
+      sitemap: false
 
 sass:
   style: compressed
